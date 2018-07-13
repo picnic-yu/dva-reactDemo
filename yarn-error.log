@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add antd
+
+PATH: 
+  C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_121\bi;C:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Program Files\MySQL\MySQL Server 5.5\bin;%ANDROID_HOME%\platform;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;.;%ANDROID_HOME%\tool;%ANDROID_HOME%\platform-tools";%ANDROID_HOME%\build-tools\23.0.1;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;D:\install\android-sdk_r24.4.1-windows\android-sdk-windows\tools;D:\install\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;D:\mongodb\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v1\npm-is-extglob-2.1.1-a88c02535791f02ed37c76a1b9ea9773c833f8c2\index.js' -> 'D:\work\react\dva-antd-react-admin\node_modules\af-webpack\node_modules\is-extglob\index.js'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.3.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
